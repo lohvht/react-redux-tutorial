@@ -1,7 +1,7 @@
 {
-  "name": "react-tutorial",
+  "name": "react-redux-tutorial",
   "version": "0.0.0",
-  "description": "Code from the React tutorial.",
+  "description": "Code from the React tutorial, modified to add basic Redux.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
@@ -14,19 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-tutorial.git"
+    "url": "https://github.com/firasd/react-redux-tutorial.git"
   },
   "keywords": [
     "react",
+    "redux",
     "tutorial",
     "comment",
     "example"
   ],
   "author": "petehunt",
   "bugs": {
-    "url": "https://github.com/reactjs/react-tutorial/issues"
+    "url": "https://github.com/firasd/react-redux-tutorial/issues"
   },
-  "homepage": "https://github.com/reactjs/react-tutorial",
+  "homepage": "https://github.com/firasd/react-redux-tutorial",
   "engines" : {
     "node" : "0.12.x"
   }

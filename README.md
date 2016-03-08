@@ -1,8 +1,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-# React Tutorial
+# Simple React Redux Tutorial
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+
+This is a modified version of the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html). The example app has been modified to use Redux.
 
 ## To use
 
