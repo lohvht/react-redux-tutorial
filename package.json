@@ -1,7 +1,7 @@
 {
   "name": "react-redux-tutorial",
   "version": "0.0.0",
-  "description": "Code from the React tutorial, modified to add basic Redux.",
+  "description": "Code from the React tutorial, modified to use basic Redux.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
