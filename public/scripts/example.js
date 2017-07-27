@@ -135,6 +135,10 @@ var CommentForm = React.createClass({
   }
 });
 
+/**
+ * NOTE: REDUX TUTORIAL START
+ */
+
 var createStore = Redux.createStore;
 var Provider = ReactRedux.Provider;
 var connect = ReactRedux.connect;
@@ -146,10 +150,15 @@ var initialState = {
 }
 
 var reducer = function(state, action) {
+  // 1) If state is undefined, return initialState
   if(state === undefined) {
     return initialState;
   }
   var newState = state;
+  // 2) To return the next state, do not mutate the original state parameter,
+  // copy the previous state (Object.assign) and merge its changed props to next
+  // State
+  // 3) if no new state, return previous state by default
   switch(action.type) {
     case 'add_comment':
       var newComments = state.data.concat([action.comment]);
